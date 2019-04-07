@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<world
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='jaxb/Communisme/communismeschemaxml.xsd'>
+    <name>Russie</name>
+    <logo>Drapeau.jpg</logo>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>0</angelbonus>
+    <lastupdate>0</lastupdate>
+    <products>
+        <product>
+            <id>01</id>
+            <name>Pomme de terre</name>
+            <logo>patate.jpg</logo>
+            <cout>4</cout>
+            <croissance>1.01</croissance>
+            <revenu>1</revenu>
+            <vitesse>500</vitesse>
+            <quantite>48</quantite>
+            <timeleft>500</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>La première planification</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>100</seuil>
+                    <idcible>0</idcible>
+                    <ratio>1.2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>La première famine</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>50</seuil>
+                    <idcible>01</idcible>
+                    <ratio>1.2</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Enfin à manger</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>125</seuil>
+                    <idcible>01</idcible>
+                    <ratio>1.3</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>La deuxieme planification</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>200</seuil>
+                    <idcible>0</idcible>
+                    <ratio>1.3</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>La deuxieme famine</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>150</seuil>
+                    <idcible>01</idcible>
+                    <ratio>1.3</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Et si on distilait tout ca</name>
+                    <logo>patate.jpg </logo>
+                    <seuil>300</seuil>
+                    <idcible>01</idcible>
+                    <ratio>2</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+            <id>02</id>
+            <name>Botte en fourrure</name>
+            <logo>botte.jpg</logo>
+            <cout>200</cout>
+            <croissance>1.02</croissance>
+            <revenu>20</revenu>
+            <vitesse>1000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>1000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+                <pallier>
+                    <name>Les pieds bien au chaud</name>
+                    <logo>botte.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>02</idcible>
+                    <ratio>1.3</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Bottons les bourgeois</name>
+                    <logo>botte.jpg </logo>
+                    <seuil>100</seuil>
+                    <idcible>02</idcible>
+                    <ratio>1.3</ratio>
+                    <typeratio>gain</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>Piétinons les antis-communistes</name>
+                    <logo>botte.jpg </logo>
+                    <seuil>200</seuil>
+                    <idcible>02</idcible>
+                    <ratio>1.5</ratio>
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+            </palliers>
+        </product>
+        <product>
+        <id>03</id>
+            <name>Parapluie bulgare</name>
+            <logo>parapluie.jpg</logo>
+            <cout>800</cout>
+            <croissance>1.03</croissance>
+            <revenu>40</revenu>
+            <vitesse>2000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>2000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+        <id>04</id>
+            <name>Buste</name>
+            <logo>buste.jpg</logo>
+            <cout>2400</cout>
+            <croissance>1.04</croissance>
+            <revenu>80</revenu>
+            <vitesse>4000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>4000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+        <id>05</id>
+            <name>Camp de vacances</name>
+            <logo>colonie.jpg</logo>
+            <cout>9600</cout>
+            <croissance>1.05</croissance>
+            <revenu>160</revenu>
+            <vitesse>8000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>8000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+        <product>
+        <id>06</id>
+            <name>Bombe nucléaire</name>
+            <logo>bombe.jpg</logo>
+            <cout>1000000</cout>
+            <croissance>1.06</croissance>
+            <revenu>50000</revenu>
+            <vitesse>16000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>16000</timeleft>
+            <managerUnlocked>false</managerUnlocked>
+            <palliers>
+            </palliers>
+        </product>
+    </products>
+    <allunlocks>
+        
+    </allunlocks>
+    <upgrades>
+        <pallier>
+            <name>savez vous planter des choux</name>
+            <logo>patate.jpg </logo>
+            <seuil>200</seuil>
+            <idcible>01</idcible>
+            <ratio>1.6</ratio>
+            <typeratio>vitesse</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>le petit livre rouge</name>
+            <logo>livre.jpg</logo>
+            <seuil>550</seuil>
+            <idcible>0</idcible>
+            <ratio>1.45</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>fourrure d'ours polaire</name>
+            <logo>ours.jpg</logo>
+            <seuil>400</seuil>
+            <idcible>02</idcible>
+            <ratio>gain</ratio>
+            <typeratio>1.3</typeratio>
+            <unlocked></unlocked>
+        </pallier>
+    </upgrades>
+    <angelupgrades>
+        <pallier>
+            <name>armée de bolchevik</name>
+            <logo>patate.jpg</logo>
+            <seuil>5</seuil>
+            <idcible>01</idcible>
+            <ratio>1.6</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Drapeau.jpg</name>
+            <logo></logo>
+            <seuil>50</seuil>
+            <idcible>-1</idcible>
+            <ratio>1.4</ratio>
+            <typeratio>ange</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Europe de l'ouest</name>
+            <logo>botte.png</logo>
+            <seuil>15</seuil>
+            <idcible>02</idcible>
+            <ratio>1.6</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
+        </pallier>
+    </angelupgrades>
+    <managers>
+        <pallier>
+            <name>Igor Patatovitch</name>
+            <logo>Igor.jpg</logo>
+            <seuil>35</seuil>
+            <idcible>1</idcible>
+            <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+            <name>Lénine</name>
+            <logo>lénine.jpg</logo>
+            <seuil>100</seuil>
+            <idcible>2</idcible>
+            <unlocked>false</unlocked>
+        </pallier>
+    </managers>
+</world>

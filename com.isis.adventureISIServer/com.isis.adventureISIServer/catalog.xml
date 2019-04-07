@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/tschwarz/Downloads/com.isis.adventureISIServer/com.isis.adventureISIServer/../../../communismeschemaxml.xsd" uri="src/main/resources/jaxb/Communisme/communismeschemaxml.xsd"/>
+</catalog>
